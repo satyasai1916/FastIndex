@@ -177,8 +177,3 @@ Tokenization: lowercase + keep `[a-z0-9]` runs (identical rule in Python and C++
 - eBPF / flamegraph profiling
 - Docker Compose deployment with TLS
 
----
-
-## Resume / Interview Pitch
-
-Built **FlashIndex** — a Python FastAPI + C++ search engine using pybind11 to index and search large log/CSV/text files with low-latency lookup. Implemented inverted indexing with identical tokenization across both language runtimes, benchmarked Python vs C++ search paths end-to-end, and exposed p50/p95/p99 latency metrics through an interactive dark-themed React UI.
